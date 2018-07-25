@@ -1,0 +1,33 @@
+body{
+    background:
+    linear-gradient(rgba(255,255,255,0.5),rgba(255,255,255,0.5)), url("../../assets/shoes.jpg");
+  
+}
+
+/* body {
+    background: 
+    linear-gradient( rgba(255, 255, 255, 0.45), rgba(255, 255, 255, 0.45)), 
+    url(../../assets/shoes.jpg);
+    margin:0;
+} */
+
+.center_content{
+    flex-direction:column;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    margin-top:20%;
+    opacity:1;
+    z-index:-1;
+}
+
+img{
+    height:72px;
+}
+
+h3{
+    font-size: 35px;
+}
+
+
+
